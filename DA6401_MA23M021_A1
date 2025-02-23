@@ -1,1 +1,1 @@
-
+This project implements a simple deep learning model for image classification. The goal is to build, train, and evaluate a neural network using a dataset, leveraging deep learning techniques such as convolutional layers, batch normalization, and dropout for improved performance.
