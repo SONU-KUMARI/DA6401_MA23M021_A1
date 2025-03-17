@@ -137,7 +137,7 @@ https://wandb.ai/ma23m021-iit-madras/MA23M021_A1/reports/MA23M021_Assignment-1--
 
 I have given ma23m021_Assignment1.py and train.py files. These files have to be in same directory after downloading as I am importing the functions from this file in train.py file. And also add your API key in the ma23m021_Assignment1.py file in line number 19 to see the run in your wandb.
 And use this command to run the code finally: 
-'''
+```
 bash
 python train.py --wandb_entity myname --wandb_project myprojectname
-'''
+```
