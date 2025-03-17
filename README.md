@@ -93,7 +93,7 @@ The model is further tested on the original MNIST dataset with three different t
 
 Weights & Biases Project Report link:
 
-[https://wandb.ai/ma23m021-iit-madras/MA23M021_A1/reports/MA23M021_Assignment-1--VmlldzoxMTcwODcwMg]
+https://wandb.ai/ma23m021-iit-madras/MA23M021_A1/reports/MA23M021_Assignment-1--VmlldzoxMTcwODcwMg?accessToken=6y55e1hswd5y1v9lwv4vwl6fa54vo31vvosj5o8go1f88c1zcf87d13siklzjo5a
 
 
 
