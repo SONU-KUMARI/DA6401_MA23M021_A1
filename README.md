@@ -133,6 +133,6 @@ https://wandb.ai/ma23m021-iit-madras/MA23M021_A1/reports/MA23M021_Assignment-1--
 
 
 
+# How to Run Code:
 
-
-This project implements a simple deep learning model for image classification. The goal is to build, train, and evaluate a neural network using a dataset, leveraging deep learning techniques such as convolutional layers, batch normalization, and dropout for improved performance.
+I have given ma23m021_Assignment1.py and train.py files. These files have to be in same directory after downloading as I am importing the functions from this file in train.py file.And also add your API key in the ma23m021_Assignment1.py file to see the run.
