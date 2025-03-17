@@ -132,18 +132,19 @@ Weights & Biases Project Report link:
 https://wandb.ai/ma23m021-iit-madras/MA23M021_A1/reports/MA23M021_Assignment-1--VmlldzoxMTcwODcwMg?accessToken=6y55e1hswd5y1v9lwv4vwl6fa54vo31vvosj5o8go1f88c1zcf87d13siklzjo5a
 
 
+Github Repo Link:
+
+https://github.com/SONU-KUMARI/DA6401_MA23M021_A1
+
 
 # How to Run Code:
 
-I have given ma23m021_Assignment1.py and train.py files. These files have to be in same directory after downloading as I am importing the functions from this file in train.py file. And also add your API key in the ma23m021_Assignment1.py file in line number 19 to see the run in your wandb.
+I have given ```ma23m021_Assignment1.py``` and ```train.py``` files. These files have to be in same directory after downloading as I am importing the functions from this file in ```train.py``` file. And also add your API key in the ```ma23m021_Assignment1.py``` file in line number 19 to see the run in your wandb.
 And use this command to run the code finally: 
 ```
 python train.py --wandb_entity myname --wandb_project myprojectname
 ```
 
 
-Github Repo Link:
 
-```
-https://github.com/SONU-KUMARI/DA6401_MA23M021_A1
-```
+
