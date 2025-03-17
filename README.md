@@ -140,3 +140,10 @@ And use this command to run the code finally:
 ```
 python train.py --wandb_entity myname --wandb_project myprojectname
 ```
+
+
+Github Repo Link:
+
+```
+https://github.com/SONU-KUMARI/DA6401_MA23M021_A1
+```
