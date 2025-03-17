@@ -89,8 +89,13 @@ A confusion matrix is also plotted (plots true vs. predicted labels) on the best
 The model is further tested on the original MNIST dataset with three different top-performing hyperparameter configurations which we extracted from fashion MNIST dataset from experimentation.
 
 
+
+
 Weights & Biases Project Report link:
+
 [https://wandb.ai/ma23m021-iit-madras/MA23M021_A1/reports/MA23M021_Assignment-1--VmlldzoxMTcwODcwMg]
+
+
 
 
 
