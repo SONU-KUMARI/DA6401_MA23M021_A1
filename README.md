@@ -15,7 +15,6 @@ Each image is 28x28 pixels in grayscale. To prepare the data:
  One-hot encoded labels into vectors of length 10.
 
 
-
 ## Model Architecture:
 
 The network supports multiple hidden layers, activation functions, and weight initialization methods. Each experiment runs with different hyperparameters and optimizers.
