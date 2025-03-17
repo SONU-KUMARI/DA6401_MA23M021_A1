@@ -44,12 +44,13 @@ The model computes Cross-Entropy Loss and Mean Squared Error (MSE), two widely u
 The gradients of the loss with respect to each weight and bias are computed using backward flow. These gradients indicate how much each parameter contributed to the overall error. The weights and biases are then updated in the opposite direction of the gradients — effectively reducing the loss — according to the selected optimizer’s specific update rules (e.g., momentum for faster convergence or adaptive learning rates in Adam and RMSprop). This iterative process continues for each batch and across multiple epochs, gradually improving the model’s performance.
 
 ## Optimizers:
-  Stochastic Gradient Descent (SGD)
-  Momentum-based Gradient Descent (MGD)
-  Nesterov Accelerated Gradient (NAG)
-  RMSprop
-  Adam
-  Nadam
+- **Stochastic Gradient Descent (SGD)**  
+- **Momentum-based Gradient Descent (MGD)**  
+- **Nesterov Accelerated Gradient (NAG)**  
+- **RMSprop**  
+- **Adam**  
+- **Nadam**  
+
 
 
 ## Model Training:
@@ -58,14 +59,48 @@ The function training_model() handles training with different hyperparameter com
 
 ### Hyperparameters
 
- Learning rate: [0.001, 0.0001]
- Hidden layers: [3, 4, 5]
- Nodes per layer: [32, 64, 128]
- Activation functions: [Sigmoid, ReLU, Tanh]
- Optimizers: [SGD, Momentum, Nesterov, RMSprop, Adam, Nadam]
- Batch size: [16, 32, 64]
- Epochs: [5, 10]
- Weight initialization: [Xavier, Random]
+ ### Hyperparameters for the Sweep
+
+- **Learning rate:**  
+  - 0.001  
+  - 0.0001  
+
+- **Hidden layers:**  
+  - 3  
+  - 4  
+  - 5  
+
+- **Nodes per layer:**  
+  - 32  
+  - 64  
+  - 128  
+
+- **Activation functions:**  
+  - Sigmoid  
+  - ReLU  
+  - Tanh  
+
+- **Optimizers:**  
+  - SGD  
+  - Momentum  
+  - Nesterov  
+  - RMSprop  
+  - Adam  
+  - Nadam  
+
+- **Batch size:**  
+  - 16  
+  - 32  
+  - 64  
+
+- **Epochs:**  
+  - 5  
+  - 10  
+
+- **Weight initialization:**  
+  - Xavier  
+  - Random  
+
 
 Best configuration is determined based on Validation Accuracy.
 
@@ -78,8 +113,9 @@ I ran these configurations for reasonable number of counts. And plots for these 
 
 Cross-Entropy vs. MSE Sweeps
 To compare performance between Cross-Entropy and MSE loss functions, results are logged in two separate Weights & Biases projects:
-    Cross-Entropy Loss Project:MA23M021_A1_Q8_CROSS
-    MSE Loss Project:MA23M021_A1_Q8_MSE
+- **Cross-Entropy Loss Project:** MA23M021_A1_Q8_CROSS  
+- **MSE Loss Project:** MA23M021_A1_Q8_MSE  
+
 
 
 ## Confusion Matrix :
